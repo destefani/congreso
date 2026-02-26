@@ -14,6 +14,11 @@ DOCUMENTS = [
     "02-executive-power.md",
     "03-legal-framework.md",
     "04-historical-patterns.md",
+    "05-chile-today.md",
+    "06-security-migration.md",
+    "07-economic-pressures.md",
+    "08-civil-society.md",
+    "09-erosion-scenarios.md",
     "bibliography.md",
 ]
 
@@ -215,8 +220,8 @@ def build_cover_html():
     <div class="cover">
         <h1>Congreso Monitor</h1>
         <p class="subtitle">Informe de Investigación:<br>
-        Estructura, Poder Ejecutivo, Marco Legal<br>
-        y Patrones Históricos del Congreso Nacional de Chile</p>
+        Estructura Institucional, Marco Legal, Contexto Actual<br>
+        y Escenarios de Erosión Democrática en Chile</p>
         <div class="meta">
             <p>Proyecto de monitoreo legislativo para la detección de deriva autoritaria</p>
             <p>Febrero 2026</p>
@@ -265,6 +270,44 @@ def build_toc_html():
             <li>3. Casos Comparados en América Latina</li>
             <li>4. Indicadores desde la Ciencia Política</li>
             <li>5. Marco de Monitoreo para Chile</li>
+
+            <li class="phase">Fase 5: Chile Hoy — Panorama Político 2019-2026</li>
+            <li>1. Fragmentación Política y Crisis del Sistema de Partidos</li>
+            <li>2. Post-Estallido Social y Procesos Constituyentes</li>
+            <li>3. Confianza Pública y Legitimidad Institucional</li>
+            <li>4. Dinámicas del Gobierno Boric</li>
+            <li>5. Paisaje Electoral 2025-2026</li>
+
+            <li class="phase">Fase 6: Narrativa de Seguridad y Migración</li>
+            <li>1. Evolución del Crimen y Crimen Organizado</li>
+            <li>2. La Ola Migratoria</li>
+            <li>3. Estados de Excepción como Herramienta de Gobernanza</li>
+            <li>4. Militarización de la Seguridad Pública</li>
+            <li>5. Tradeoffs de Libertades Civiles</li>
+            <li>6. La Narrativa de Seguridad en el Discurso Político</li>
+
+            <li class="phase">Fase 7: Presiones Económicas</li>
+            <li>1. La Crisis de Pensiones (AFP)</li>
+            <li>2. Desigualdad y Costo de Vida</li>
+            <li>3. Dependencia del Cobre y Vulnerabilidad Fiscal</li>
+            <li>4. Empleo, Informalidad y Trabajo Migrante</li>
+            <li>5. Crisis Económica como Precondición Autoritaria</li>
+
+            <li class="phase">Fase 8: Sociedad Civil y Resiliencia Democrática</li>
+            <li>1. Paisaje Mediático</li>
+            <li>2. Organizaciones de Vigilancia</li>
+            <li>3. Independencia Judicial</li>
+            <li>4. Universidades y Think Tanks</li>
+            <li>5. Movimientos Sociales Post-Estallido</li>
+            <li>6. Prevención y Resiliencia</li>
+
+            <li class="phase">Fase 9: Escenarios de Erosión — Síntesis</li>
+            <li>1. Perfil de Riesgo de Chile</li>
+            <li>2. Escenarios Chile-Específicos</li>
+            <li>3. Vulnerabilidad Institucional</li>
+            <li>4. Señales de Alerta Temprana</li>
+            <li>5. Análisis de Temporalidad</li>
+            <li>6. Vías de Salida</li>
 
             <li class="phase">Bibliografía</li>
             <li>Fuentes oficiales, portales de datos, ciencia política, índices democráticos</li>
