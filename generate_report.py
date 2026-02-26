@@ -19,6 +19,7 @@ DOCUMENTS = [
     "07-economic-pressures.md",
     "08-civil-society.md",
     "09-erosion-scenarios.md",
+    "10-democratic-clock.md",
     "bibliography.md",
 ]
 
@@ -308,6 +309,16 @@ def build_toc_html():
             <li>4. Señales de Alerta Temprana</li>
             <li>5. Análisis de Temporalidad</li>
             <li>6. Vías de Salida</li>
+
+            <li class="phase">Fase 10: El Reloj Democrático de Chile</li>
+            <li>1. Fundamento: Por Qué un Reloj</li>
+            <li>2. Diseño de la Escala</li>
+            <li>3. Las Cinco Dimensiones</li>
+            <li>4. Metodología de Cálculo</li>
+            <li>5. Evaluación Inicial: Chile Febrero 2026</li>
+            <li>6. Diferencias con Índices Existentes</li>
+            <li>7. Protocolo de Actualización</li>
+            <li>8. Comunicación Pública</li>
 
             <li class="phase">Bibliografía</li>
             <li>Fuentes oficiales, portales de datos, ciencia política, índices democráticos</li>

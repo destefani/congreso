@@ -4,9 +4,9 @@
 
 Monitor the Chilean Congress to track executive influence over legislation and detect potential authoritarian drift. The long-term goal is a public website where citizens can see what's happening in Congress.
 
-## Current Phase: Research Complete — Phase 9 Synthesis Done
+## Current Phase: Research Complete — Democratic Clock Designed
 
-All research phases (1-9) are complete. The synthesis document (Phase 9) integrates findings from all phases into Chile-specific erosion scenarios and a monitoring framework. Next step: design and build the monitoring tool.
+All research phases (1-9) are complete plus the Democratic Clock (Phase 10). The project now has a Chile-specific early warning scale modeled on the Doomsday Clock, with 5 dimensions, 15+ quantitative indicators, and an initial assessment of **4:30 to midnight (Early Erosion)**. Next step: design and build the monitoring tool.
 
 ## Research Plan
 
@@ -23,6 +23,7 @@ Research documents in `docs/research/`:
 | 7 | Economic Pressures & Democratic Erosion | `07-economic-pressures.md` | Done |
 | 8 | Civil Society & Democratic Resilience | `08-civil-society.md` | Done |
 | 9 | **Erosion Scenarios — Synthesis** | `09-erosion-scenarios.md` | Done |
+| 10 | **El Reloj Democratico de Chile** | `10-democratic-clock.md` | Done |
 
 ## Key Context
 
@@ -37,7 +38,7 @@ See `docs/research/bibliography.md` for all sources.
 
 ## Compiled Report
 
-`docs/Congreso_Monitor_Informe_Investigacion.pdf` — Full research report (1.7 MB, ~6,400 lines across all phases)
+`docs/Congreso_Monitor_Informe_Investigacion.pdf` — Full research report (1.8 MB, ~7,000 lines across all phases)
 
 ## Directory Structure
 
@@ -53,6 +54,7 @@ docs/
     07-economic-pressures.md                   # Phase 7: Pensions, inequality, copper dependency, employment
     08-civil-society.md                        # Phase 8: Media, watchdogs, judiciary, movements, resilience
     09-erosion-scenarios.md                    # Phase 9: SYNTHESIS — Chile-specific erosion scenarios, risk profile, early warnings
+    10-democratic-clock.md                     # Phase 10: El Reloj Democrático — early warning scale (4:30 to midnight)
     bibliography.md                            # All sources, kept up to date
   Congreso_Monitor_Informe_Investigacion.pdf   # Compiled PDF report
   plans/                                       # Design and implementation plans (future)
