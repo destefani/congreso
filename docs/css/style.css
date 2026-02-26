@@ -1,0 +1,580 @@
+/* ============================================
+   El Reloj Democratico de Chile
+   Stylesheet
+   ============================================ */
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #1a3a5c;
+  --secondary: #2a5a8c;
+  --bg: #f8f9fa;
+  --text: #1a1a1a;
+  --text-light: #555;
+  --border: #ddd;
+
+  --green: #27ae60;
+  --yellow: #f1c40f;
+  --orange: #e67e22;
+  --red: #e74c3c;
+  --darkred: #922b21;
+
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* --- Layout --- */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* --- Header --- */
+.site-header {
+  background: var(--primary);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.site-header h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.site-header h1 a {
+  color: #fff;
+}
+
+.site-header h1 a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-nav a {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --- Hero / Clock Section --- */
+.hero {
+  text-align: center;
+  padding: 2.5rem 0 1.5rem;
+}
+
+.clock-container {
+  max-width: 520px;
+  margin: 0 auto 0.75rem;
+}
+
+.clock-container svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.clock-zone {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 1.2rem;
+  border-radius: 4px;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+
+.clock-date {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+}
+
+/* --- Dimensions Section --- */
+.dimensions {
+  padding: 2rem 0;
+}
+
+.dimensions h2 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.dimension-bar {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.dimension-bar:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.dimension-header {
+  display: flex;
+  align-items: center;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  gap: 0.75rem;
+  user-select: none;
+}
+
+.dimension-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.dimension-name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.dimension-reading {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin-right: 0.5rem;
+}
+
+.dimension-zone-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.dimension-toggle {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  transition: transform 0.2s;
+}
+
+.dimension-bar.open .dimension-toggle {
+  transform: rotate(180deg);
+}
+
+.dimension-progress {
+  height: 4px;
+  margin: 0 1rem 0.5rem;
+  background: #eee;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.dimension-progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+.dimension-detail {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.dimension-bar.open .dimension-detail {
+  max-height: 300px;
+}
+
+.dimension-detail-inner {
+  padding: 0 1rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* --- Key Facts --- */
+.key-facts {
+  background: var(--primary);
+  color: #fff;
+  padding: 2.5rem 0;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.fact-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 0.4rem;
+}
+
+.fact-label {
+  font-size: 0.85rem;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+/* --- Links / CTA Section --- */
+.cta-section {
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.cta-card {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.cta-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.cta-card h3 {
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+
+.cta-card p {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/* --- Footer --- */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.site-footer a {
+  color: var(--text-light);
+}
+
+.site-footer a:hover {
+  color: var(--secondary);
+}
+
+/* --- Page Content (investigacion, metodologia) --- */
+.page-content {
+  padding: 2.5rem 0;
+}
+
+.page-content h1 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.page-content .subtitle {
+  color: var(--text-light);
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.page-content h2 {
+  font-size: 1.35rem;
+  color: var(--primary);
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.page-content h3 {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+}
+
+.page-content ul, .page-content ol {
+  margin: 0 0 1rem 1.5rem;
+}
+
+.page-content li {
+  margin-bottom: 0.35rem;
+}
+
+/* --- Research Table --- */
+.research-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 2rem;
+}
+
+.research-table th,
+.research-table td {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.research-table th {
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.research-table tr:hover {
+  background: rgba(42, 90, 140, 0.04);
+}
+
+.research-table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--text-light);
+  width: 60px;
+}
+
+.research-table a {
+  font-weight: 600;
+}
+
+.research-table .desc {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 0.2rem;
+}
+
+/* --- Methodology Tables --- */
+.method-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.9rem;
+}
+
+.method-table th,
+.method-table td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+}
+
+.method-table th {
+  background: #eef2f7;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.method-table .zone-cell {
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+/* --- Zone Badge --- */
+.zone-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.zone-green  { background: var(--green); }
+.zone-yellow { background: var(--yellow); color: #333; }
+.zone-orange { background: var(--orange); }
+.zone-red    { background: var(--red); }
+.zone-darkred { background: var(--darkred); }
+
+/* --- Info Box --- */
+.info-box {
+  background: #eef2f7;
+  border-left: 4px solid var(--secondary);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9rem;
+}
+
+/* --- Download Button --- */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: var(--secondary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+
+.btn-outline:hover {
+  background: var(--secondary);
+  color: #fff;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-nav {
+    gap: 1rem;
+  }
+
+  .clock-zone {
+    font-size: 1rem;
+  }
+
+  .facts-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .fact-number {
+    font-size: 2rem;
+  }
+
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dimension-header {
+    flex-wrap: wrap;
+  }
+
+  .dimension-name {
+    font-size: 0.9rem;
+  }
+
+  .research-table td:first-child {
+    white-space: normal;
+  }
+
+  .page-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .method-table {
+    font-size: 0.8rem;
+  }
+
+  .method-table th,
+  .method-table td {
+    padding: 0.4rem 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .clock-reading {
+    font-size: 2.8rem;
+  }
+
+  .clock-container {
+    max-width: 320px;
+  }
+
+  .dimension-reading {
+    font-size: 0.85rem;
+  }
+
+  .dimension-zone-tag {
+    display: none;
+  }
+}

@@ -4,9 +4,18 @@
 
 Monitor the Chilean Congress to track executive influence over legislation and detect potential authoritarian drift. The long-term goal is a public website where citizens can see what's happening in Congress.
 
-## Current Phase: Research Complete — Democratic Clock Designed
+## Current Phase: GitHub Pages Site Built
 
-All research phases (1-9) are complete plus the Democratic Clock (Phase 10). The project now has a Chile-specific early warning scale modeled on the Doomsday Clock, with 5 dimensions, 15+ quantitative indicators, and an initial assessment of **4:30 to midnight (Early Erosion)**. Next step: design and build the monitoring tool.
+All research phases (1-9) are complete plus the Democratic Clock (Phase 10). The project now has a Chile-specific early warning scale modeled on the Doomsday Clock, with 5 dimensions, 15+ quantitative indicators, and an initial assessment of **4:30 to midnight (Early Erosion)**.
+
+A GitHub Pages site has been built in `docs/` with three pages:
+- **index.html** — Homepage with SVG semicircular gauge, 5 dimension bars (expand/collapse), key facts strip, and navigation cards
+- **investigacion.html** — All 10 research phases with links to the markdown files and PDF download
+- **metodologia.html** — Full methodology: zones, dimensions, indicators table, scoring, point of no return
+
+The site is plain HTML/CSS/JS with no dependencies or build step. To update the clock reading, edit `docs/js/clock.js` (the `CLOCK_DATA` object) and commit.
+
+**Next step:** Create a GitHub remote, push, and enable GitHub Pages (deploy from `/docs` on `main` branch).
 
 ## Research Plan
 
@@ -57,6 +66,14 @@ docs/
     10-democratic-clock.md                     # Phase 10: El Reloj Democrático — early warning scale (4:30 to midnight)
     bibliography.md                            # All sources, kept up to date
   Congreso_Monitor_Informe_Investigacion.pdf   # Compiled PDF report
+  css/
+    style.css                                  # Single stylesheet (layout, typography, colors, responsive)
+  js/
+    clock.js                                   # SVG gauge rendering, dimension bars, clock data object
+  index.html                                   # Homepage: the clock
+  investigacion.html                           # Research phases listing
+  metodologia.html                             # How the clock works
   plans/                                       # Design and implementation plans (future)
 generate_report.py                             # Script to regenerate the PDF report
+.gitignore                                     # .DS_Store, .venv, __pycache__, *.pyc
 ```
