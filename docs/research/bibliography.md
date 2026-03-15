@@ -97,11 +97,20 @@ Sources used across all research phases. Organized by category.
 ### Democracy Indices and Measurement Frameworks
 
 - V-Dem Institute. Democracy Report (annual). https://v-dem.net/
+- V-Dem Institute (2025). *Democracy Report 2025: 25 Years of Autocratization -- Democracy Trumped?* V-Dem Dataset v15. https://www.v-dem.net/documents/54/v-dem_dr_2025_lowres_v1.pdf
 - Freedom House. Freedom in the World (annual). https://freedomhouse.org/report/freedom-world
+- Freedom House (2025). *Freedom in the World 2025: Chile Country Report*. https://freedomhouse.org/country/chile/freedom-world/2025
 - Economist Intelligence Unit. Democracy Index (annual). https://www.eiu.com/
+- Economist Intelligence Unit (2025). *Democracy Index 2024*. https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2025/03/Democracy_INDEX_2024.pdf
 - World Justice Project. Rule of Law Index (annual). https://worldjusticeproject.org/rule-of-law-index/
+- World Justice Project (2025). *WJP Rule of Law Index 2025: Chile*. https://worldjusticeproject.org/rule-of-law-index/country/2025/Chile
 - Bertelsmann Stiftung. BTI Transformation Index. https://bti-project.org/
 - Transparency International. Corruption Perceptions Index (annual). https://www.transparency.org/
+- Transparency International (2026). *Corruption Perceptions Index 2025*. https://www.transparency.org/en/cpi/2025
+- Reporters Without Borders (RSF) (2025). *World Press Freedom Index 2025: Chile*. https://rsf.org/en/country/chile
+- International IDEA (2025). *Global State of Democracy 2025: Chile*. https://www.idea.int/democracytracker/report/chile/november-2025
+- Latinobarometro (2024). *Informe 2024: La Democracia Resiliente*. https://www.latinobarometro.org/
+- LAPOP Lab, Vanderbilt University. *AmericasBarometer 2023*. https://www.vanderbilt.edu/lapop/
 
 ## Human Rights / Oversight
 
@@ -136,6 +145,18 @@ Sources used across all research phases. Organized by category.
 - Ley 21.459 (2022), Delitos informáticos — https://www.bcn.cl/leychile/navegar?idNorma=1177743
 - Ley 21.661 (2024), Ministerio de Seguridad Pública — https://www.bcn.cl/leychile/navegar?idNorma=1204027
 - DL 1.094 (1975), anterior ley de extranjería (derogada) — https://www.bcn.cl/leychile/navegar?idNorma=6483
+- Ley 21.730 (2025), Ministerio de Seguridad Pública — publicada 5 febrero 2025
+- Ley 21.732 (2025), Nueva Ley Antiterrorista — promulgada 4 febrero 2025
+- Ley 21.659 (2025), Ley de Seguridad Privada — vigente 28 noviembre 2025
+- Ley 21.571 (2023), Ley Sicariato
+- Ley 21.577 (2023), Ley Contra el Crimen Organizado
+- Ley 21.595 (2023), Ley de Delitos Económicos
+- Ley 21.663 (2024), Ley de Ciberseguridad
+- Ley 21.557 (2023), Ley Antisecuestros
+- Ley 21.670 (2024), Ley de Control de Armas
+- Ley 21.717 (2024), Ley Contra Narco Funerales
+- Reforma al Sistema de Inteligencia del Estado (2026) — aprobada 28 enero 2026
+- Proyecto de reforma constitucional para despliegue permanente de FFAA en fronteras (Boletín N° 17.925-07, nov 2025)
 
 ### Institutional Data — Security & Migration
 
@@ -145,6 +166,9 @@ Sources used across all research phases. Organized by category.
 - Ministerio Público, Boletín Estadístico Anual — https://www.fiscaliadechile.cl/
 - Policía de Investigaciones (PDI) — https://www.pdichile.cl/
 - Carabineros de Chile — https://www.carabineros.cl/
+- Ministerio de Seguridad Pública — https://minsegpublica.cl/
+- Fiscalía Nacional, ECOH — https://www.fiscaliadechile.cl/quienes-somos/ECOH
+- Informe Nacional de Víctimas de Homicidios — https://prevenciondehomicidios.cl/
 
 ### International Reports — Security & Migration
 
@@ -153,7 +177,21 @@ Sources used across all research phases. Organized by category.
 - OIM, Informes sobre migración en Chile — https://chile.iom.int/
 - Human Rights Watch, Informes sobre Chile — https://www.hrw.org/es/americas/chile
 - Amnistía Internacional, Informes sobre Chile — https://www.amnesty.org/es/location/americas/south-america/chile/
+- Amnesty International, Chile Report 2025 — https://www.amnesty.org/en/location/americas/south-america/chile/report-chile/
+- Human Rights Watch, World Report 2026 — https://www.hrw.org/world-report/2026
 - InSight Crime, Tren de Aragua y crimen organizado transnacional — https://insightcrime.org/
+- USIP, "Los Desafíos Migratorios de Chile Se Intensifican de Cara a las Elecciones de 2025", enero 2025 — https://www.usip.org/publications/2025/01/los-desafios-migratorios-de-chile-se-intensifican-de-cara-las-elecciones-de
+- Comité de Trabajadores Migratorios de Naciones Unidas, Informe sobre Chile
+
+### Academic & Legal Analysis — Security & Migration (Phase 6b)
+
+- Derecho UDP, "Expulsión de migrantes en Chile: Tres niveles de ilegalidades y desprotección" — https://derecho.udp.cl/expulsion-de-migrantes-en-chile-tres-niveles-de-ilegalidades-y-desproteccion/
+- Londres 38, "El proyecto de ley RUF no cumple estándares internacionales de DDHH" — https://www.londres38.cl/1937/w3-article-113099.html
+- CODEPU, "De reglas de uso de la fuerza, de impunidad y derechos humanos", abril 2025 — https://codepu.cl/wp/2025/04/30/reglas-de-uso-de-la-fuerza/
+- OCRIT UNAB, "Radiografía al Tren de Aragua en Chile" — https://ipp.unab.cl/publicacion/radiografia-a-las-principales-organizaciones-criminales-trasnacionales-en-chile-tren-de-aragua/
+- OCRIT UNAB, "Radiografía de la Seguridad en Chile 2014-2024" — https://ipp.unab.cl/wp-content/uploads/2025/04/20250423-OCRIT-UNAB_Informe-Radiografia-de-la-seguridad-en-Chile-2014-2024.pdf
+- Revista Seguridad & Defensa, "Un año del Ministerio de Seguridad: balance entre cifras, expectativas y desafíos", 28 enero 2026 — https://revistaseguridad.cl/2026/01/28/un-ano-del-ministerio-de-seguridad-balance-entre-cifras-expectativas-y-desafios/
+- Fundación Chile21, balance de legislación en seguridad del gobierno Boric (junio 2025)
 
 ### Media — Investigative Journalism
 
@@ -323,6 +361,16 @@ Sources used across all research phases. Organized by category.
 - Mudde, C. (2019). *The Far Right Today*. Polity Press.
 - Zanotti, L. y Rovira Kaltwasser, C. (2024). "The Populist Radical Right in Latin America: Conceptual and Empirical Challenges." *Annual Review of Political Science*.
 
+### Academic — Democratic Erosion in Chile (2025-2026)
+
+- Arce Riffo, J. (2026). "Walking towards Democratic Backsliding? Chile at a Crossroads." UCL Institute of the Americas Blog. https://blogs.ucl.ac.uk/americas-blog/2026/01/19/walking-towards-democratic-backsliding-chile-at-a-crossroads/
+- Engel, E. and Garcia, B. (2025). "Chile's Democracy Faces Its Gravest Test Since Pinochet." *Social Europe*. https://www.socialeurope.eu/chiles-democracy-faces-its-gravest-test-since-pinochet
+- Santander Hoces, L. (2026). "From Estallido to Far-Right Restoration: How Chile's Democratic Moment Turned Authoritarian." IRGAC. https://irgac.org/articles/from-estallido-to-far-right-restoration-how-chile-s-democratic-moment-turned-authoritarian/
+- Alvarez Larenas (2026). "Support for Democracy, Ideological Affinity, and the Perception of Corruption: Evidence From Chile, 2006-2023." *Politics & Policy*. https://onlinelibrary.wiley.com/doi/10.1111/polp.70111
+- Americas Quarterly (2026). "Jose Antonio Kast Takes Office: Pragmatist or Radical Right?" https://americasquarterly.org/article/jose-antonio-kast-presidency-chile/
+- Latinoamerica21 (2025). "Latin America 2025: Protest Voting Amid Fragmentation and Democratic Erosion." https://latinoamerica21.com/en/latin-america-2025-protest-voting-amid-fragmentation-and-democratic-erosion/
+- Georgetown University (2025). "Rule of Law in Latin America: Declining Institutional Strength Amid Democratic Erosion." https://americas.georgetown.edu/posts/rule-of-law-in-latin-america-declining-institutional-strength-amid-democratic-erosion
+
 ### Think Tanks — Chilean Political Analysis
 
 - CEP Chile (Centro de Estudios Públicos), Puntos de Referencia y Documentos de Trabajo — https://www.cepchile.cl/
@@ -438,3 +486,128 @@ Sources used across all research phases. Organized by category.
 
 - Luna, Juan Pablo (2024). "Chile's Fragmented Democracy: Between Populism and Institutional Decay." Working Paper, PUC Chile.
 - Rovira Kaltwasser, Cristóbal (2024). "The Populist Radical Right in Chile and Latin America." *Annual Review of Political Science*.
+
+---
+
+## Phase 11: Chile Situation Report February-March 2026
+
+### Election Results & Transition (2025-2026)
+
+- Servel, Resultados elecciones generales 2025 — https://www.servel.cl/elecciones-2025/
+- Wikipedia, 2025 Chilean general election — https://en.wikipedia.org/wiki/2025_Chilean_general_election
+- Wikipedia, Eleccion presidencial de Chile de 2025 — https://es.wikipedia.org/wiki/Elecci%C3%B3n_presidencial_de_Chile_de_2025
+- Wikipedia, Elecciones parlamentarias de Chile de 2025 — https://es.wikipedia.org/wiki/Elecciones_parlamentarias_de_Chile_de_2025
+- AS/COA, Explainer: Chile's 2025 General Elections — https://www.as-coa.org/articles/explainer-chiles-2025-general-elections
+- AS/COA, Poll Tracker: Chile's 2025 Presidential Runoff — https://www.as-coa.org/articles/poll-tracker-chiles-2025-presidential-runoff
+- DecideChile 2025 — https://live.decidechile.cl/
+
+### Kast Government & Inauguration (March 2026)
+
+- Wikipedia, Gobierno de Jose Antonio Kast — https://es.wikipedia.org/wiki/Gobierno_de_Jos%C3%A9_Antonio_Kast
+- T13, Gobierno de Kast: lista completa de nuevos ministros (Jan 20, 2026) — https://www.t13.cl/noticia/politica/gobierno-de-jose-antonio-kast-lista-completa-de-los-nuevos-ministros
+- Emol, Gabinete Kast ministros fichas (Jan 20, 2026) — https://www.emol.com/noticias/Nacional/2026/01/20/1189138/gabinete-kast-ministros-gobierno-fichas.html
+- BioBioChile, Quienes son los ministros del gabinete (Jan 20, 2026) — https://www.biobiochile.cl/noticias/bbcl-explica/bbcl-explica-notas/2026/01/20/quienes-son-los-ministros-del-gabinete-de-jose-antonio-kast-revisa-aqui-su-perfil-y-trayectoria.shtml
+- Cooperativa, Gabinete gobierno de emergencia (Mar 11, 2026) — https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gabinete-para-un-gobierno-de-emergencia-los-24-ministros-del/2026-03-11/125740.html
+- Diario Financiero, Kast asume como presidente (Mar 11, 2026) — https://www.df.cl/economia-y-politica/actualidad/minuto-a-minuto-del-cambio-de-mando-kast-asume-como-presidente
+- Le Grand Continent, Aceleracion antiliberal discurso Kast (Mar 12, 2026) — https://legrandcontinent.eu/es/2026/03/12/la-aceleracion-antiliberal-segun-jose-antonio-kast-discurso-integro-del-nuevo-presidente-de-chile/
+- El Mostrador, Promesa del orden tono portaliano (Mar 12, 2026) — https://www.elmostrador.cl/noticias/pais/2026/03/12/la-promesa-del-orden-el-discurso-con-que-el-presidente-kast-fija-su-tono-portaliano/
+- Bloomberg Linea, Kast arranca gobierno (Mar 2026) — https://www.bloomberglinea.com/latinoamerica/chile/kast-arranca-su-gobierno-en-chile-con-foco-en-seguridad-migracion-y-recorte-del-gasto/
+
+### First Decrees & Legislative Agenda
+
+- La Tercera, Plan de Kast primeros 3 meses — https://www.latercera.com/pulso/noticia/el-plan-de-kast-para-los-primeros-3-meses-cuatro-proyectos-de-ley-medidas-administrativas-e-instructivos-de-austeridad-fiscal/
+- Emol, Cierre fronterizo auditoria y reconstruccion (Mar 11, 2026) — https://www.emol.com/noticias/Nacional/2026/03/11/1194042/grandes-medidas-inicio-gobierno-kast.html
+- Ex-Ante, 6 decretos de emergencia (Mar 2026) — https://www.ex-ante.cl/los-6-decretos-de-emergencia-que-kast-firmo-con-sus-primeras-medidas/
+- La Tercera, Kast activa gobierno de emergencia 6 decretos (Mar 2026) — https://www.latercera.com/politica/noticia/kast-activa-su-gobierno-de-emergencia-firma-seis-decretos-con-foco-en-frontera-gasto-publico-y-permisos-ambientales/
+- BioBioChile, Kast firma primeros decretos (Mar 11, 2026) — https://www.biobiochile.cl/noticias/nacional/chile/2026/03/11/presidente-kast-firma-primeros-decretos-cierre-fronterizo-y-auditoria-total-marcan-inicio-de-gobierno.shtml
+- Diario Financiero, Destraba 51 proyectos US$16.000 millones (Mar 2026) — https://www.df.cl/economia-y-politica/gobierno/nuevo-gobierno-firma-decreto-que-destraba-51-proyectos-por-us-16-000
+- La Tercera, Juicio expertos decreto permisos ambientales (Mar 2026) — https://www.latercera.com/pulso/noticia/el-juicio-de-los-expertos-al-decreto-del-gobierno-de-kast-para-acelerar-los-permisos-ambientales/
+
+### National Reconstruction Bill (March 14, 2026)
+
+- BioBioChile, Proyecto Reconstruccion Nacional (Mar 14, 2026) — https://www.biobiochile.cl/noticias/nacional/chile/2026/03/14/proyecto-de-reconstruccion-nacional-incluye-ajuste-a-gratuidad-universitaria-y-medidas-economicas.shtml
+- El Mostrador, Kast presenta Reconstruccion Nacional (Mar 14, 2026) — https://www.elmostrador.cl/noticias/pais/2026/03/14/presidente-kast-presenta-su-reconstruccion-nacional-incluye-cae-y-medidas-economicas/
+- La Tercera, Plan Reconstruccion divide Congreso (Mar 2026) — https://www.latercera.com/politica/noticia/plan-de-reconstruccion-nacional-de-kast-divide-al-congreso-por-rebaja-de-impuestos-y-ajustes-a-la-gratuidad/
+- Cooperativa, Kast presento Plan Reconstruccion (Mar 14, 2026) — https://www.cooperativa.cl/noticias/pais/presidente-kast/kast-presento-plan-de-reconstruccion-nacional-que-incluye-rebaja-de/2026-03-14/121834.html
+- Infobae, Kast proyecto ley reconstruir Biobio (Mar 14, 2026) — https://www.infobae.com/america/america-latina/2026/03/14/kast-anuncio-un-proyecto-de-ley-para-reconstruir-la-region-chilena-del-biobio-tras-los-devastadores-incendios-forestales/
+
+### Security, Migration & Border Policy
+
+- CNN Espanol, Kast como Trump zanja muro (Mar 13, 2026) — https://cnnespanol.cnn.com/2026/03/13/latinoamerica/escudo-fronterizo-kast-chile-migracion-trump-orix
+- Infobae, Kast despliega militares frontera Peru (Mar 13, 2026) — https://www.infobae.com/peru/2026/03/13/presidente-de-chile-jose-antonio-kast-despliega-militares-en-la-frontera-con-peru-para-construir-muro-contra-migrantes/
+- La Politica Online, Kast promete deportar 300 mil (Mar 2026) — https://www.lapoliticaonline.com/internacionales/kast-asume-en-chile-con-la-promesa-de-deportar-mas-de-300-mil-inmigrantes/
+- El Tiempo, Plan mano dura Kast 90 dias (Mar 2026) — https://www.eltiempo.com/mundo/latinoamerica/el-plan-de-mano-dura-de-kast-y-como-hara-para-sacar-de-chile-a-los-migrantes-irregulares-en-sus-primeros-90-dias-de-gobierno-3517950
+- Resumen Latinoamericano, Medidas generan criticas (Mar 11, 2026) — https://www.resumenlatinoamericano.org/2026/03/11/chile-medidas-anunciadas-por-jose-kast-generan-criticas-por-migracion-seguridad-y-derechos-humanos
+
+### States of Exception
+
+- Senado, Estado de excepcion macrozona sur y resguardo fronterizo (Feb 2026) — https://www.senado.cl/comunicaciones/noticias/estado-de-excepcion-en-la-macrozona-sur-y-resguardo-fronterizo-en-el-norte
+- BioBioChile, Delegado Araucania prepara decretos (Mar 13, 2026) — https://www.biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/03/13/delegado-presidencial-de-la-araucania-asegura-que-gobierno-prepara-decretos-para-la-region.shtml
+
+### Human Rights & Pardons
+
+- El Mostrador, Kast indultara militares estallido (Mar 13, 2026) — https://www.elmostrador.cl/noticias/pais/2026/03/13/presidente-kast-juega-al-empate-indultara-a-militares-y-policias-presos-por-el-estallido/
+- The Clinic, Kast por indultos uniformados (Mar 12, 2026) — https://www.theclinic.cl/2026/03/12/kast-por-indultos-a-uniformados-condenados-por-apremios-ilegitimos-en-el-estallido-social-es-una-facultad-que-tiene-el-presidente-y-la-voy-a-utilizar/
+- T13, Indultos por estallido cifras condenados (Mar 13, 2026) — https://www.t13.cl/noticia/ex-ante/politica/indultos-por-estallido-las-cifras-exuniformados-condenados-13-3-2026
+- Resumen Latinoamericano, Kast reabre puerta impunidad (Mar 13, 2026) — https://www.resumenlatinoamericano.org/2026/03/13/chile-kast-reabre-la-puerta-a-la-impunidad-estudia-indultar-a-uniformados-condenados-por-la-revuelta-social
+- El Clarin, Organizaciones sociales criticas (Mar 11, 2026) — https://www.elclarin.cl/2026/03/11/organizaciones-sociales-expresan-criticas-y-aprensiones-ante-el-inicio-del-gobierno-de-jose-antonio-kast/
+- Observatorio Ciudadano, Chile examinado Comite DDHH ONU (2026) — https://observatorio.cl/chile-sera-examinado-por-comite-de-derechos-humanos-onu-derechos-indigenas-y-ley-lafkenche-ecmpo-entre-puntos-criticos/
+- Ministerio de Justicia, Tercer Plan Nacional DDHH 2026-2029 — https://www.minjusticia.gob.cl/comite-interministerial-aprueba-tercer-plan-nacional-de-derechos-humanos-2026-2029/
+
+### Public Opinion & Polls
+
+- CADEM, Plaza Publica (Mar 2026) — https://cadem.cl/plaza-publica/
+- BioBioChile, CADEM Boric 37% aprobacion final (Mar 8, 2026) — https://www.biobiochile.cl/noticias/nacional/chile/2026/03/08/encuesta-cadem-boric-termina-su-gobierno-con-37-de-aprobacion-y-un-58-de-desaprobacion.shtml
+- Pauta, CADEM Boric 37% Kast expectativas (Mar 9, 2026) — https://www.pauta.cl/actualidad/2026/03/09/cadem-boric-alcanza-37-de-aprobacion-pero-su-gobierno-solo-logra-29-de-evaluacion-positiva.html
+- Radio Maray, CADEM Kast 56% imagen positiva (Mar 13, 2026) — https://www.maray.cl/pais/13/03/2026/cadem-kast-inicia-su-gobierno-con-56-de-imagen-positiva-y-expectativas-mayoritariamente-favorables/
+- Criteria Research — https://www.criteria.cl/
+- CEP Chile, Encuesta Nacional — https://www.cepchile.cl/opinion-publica/encuesta-cep/
+
+### Congress Dynamics (2026)
+
+- BioBioChile, Alessandri elegido presidente Camara (Mar 11, 2026) — https://www.biobiochile.cl/noticias/nacional/chile/2026/03/11/primera-victoria-del-gobierno-de-kast-diputado-alessandri-es-elegido-presidente-de-la-camara.shtml
+- Poder y Liderazgo, Congreso 2026 centroderecha lidera (Mar 2026) — https://www.poderyliderazgo.cl/congreso-2026-centroderecha-lidera-ambas-camaras-en-inicio-de-nuevo-ciclo-politico-en-chile/
+- Azerta, Perfil nueva Camara Diputados 2026-2030 — https://www.azerta.cl/el-perfil-de-la-nueva-camara-de-diputados-2026-2030/
+
+### Judiciary: Caso Hermosilla & Crisis Judicial
+
+- BioBioChile, Revision cautelares Hermosilla (Jan 30, 2026) — https://www.biobiochile.cl/noticias/nacional/chile/2026/01/30/revision-de-cautelares-a-imputados-en-caso-audio-hermosilla-continuara-con-arresto-domiciliario-total.shtml
+- BioBioChile, Caso Audio-Factop vuelve etapa investigativa (Feb 16, 2026) — https://www.biobiochile.cl/noticias/nacional/chile/2026/02/16/caso-audio-factop-vuelve-a-etapa-investigativa-a-peticion-de-defensa-de-hermosilla-y-otros-imputados.shtml
+- Cooperativa, Defensa exfiscal Guerra (Mar 9, 2026) — https://www.cooperativa.cl/noticias/pais/judicial/casos-emblematicos/con-que-autorizacion-defensa-de-exfiscal-guerra-cuestiona-obtencion/2026-03-09/121947.html
+- T13, Vivanco prision preventiva (Jan 30, 2026) — https://www.t13.cl/noticia/nacional/decretan-prision-preventiva-contra-exjueza-corte-suprema-angela-vivanco-30-1-2026
+- Infobae, Exmagistrada Vivanco prision (Jan 30, 2026) — https://www.infobae.com/america/america-latina/2026/01/30/una-ex-magistrada-de-la-corte-suprema-de-chile-ingreso-en-prision-preventiva-por-corrupcion/
+- El Mostrador, Caso Muneca Bielorrusa Vivanco amparo rechazado (Mar 11, 2026) — https://www.elmostrador.cl/noticias/pais/2026/03/11/caso-muneca-bielorrusa-corte-rechaza-amparo-de-angela-vivanco-y-mantiene-prision-preventiva/
+- El Ciudadano, Corrupcion Corte Suprema reformas (Mar 10, 2026) — https://www.elciudadano.com/chile/la-corrupcion-en-la-corte-suprema-de-chile-un-sistema-bajo-tension-y-la-urgencia-de-reformas-estructurales/03/10/
+- Interferencia, Caso Hermosilla — https://interferencia.cl/casos/caso-hermosilla
+
+### Economy
+
+- Ex-Ante, Banco Central crecimiento Kast (Dec 2025) — https://www.ex-ante.cl/ipom-banco-central-proyecta-inflacion-en-descenso-y-crecimiento-al-alza-en-primer-ano-de-kast/
+- Diario Financiero, Banco Mundial proyeccion 2.2% (2026) — https://www.df.cl/economia-y-politica/macro/banco-mundial-mantiene-en-2-2-su-proyeccion-de-crecimiento-para-chile-en
+- Emol, Banco Central tasa interes (Jan 26, 2026) — https://www.emol.com/noticias/Economia/2026/01/26/1189677/banco-central-tasa-interes-2026.html
+- La Tribuna, Desempleo sube 8.3% (Feb 27, 2026) — https://www.latribuna.cl/economia/2026/02/27/desempleo-en-chile-sube-a-8-3-y-brecha-de-genero-marca-diferencias-en-el-mercado-laboral.html
+- BioBioChile, Reforma pensiones 2026 (Nov 5, 2025) — https://www.biobiochile.cl/noticias/economia/tu-bolsillo/2025/11/05/reforma-de-pensiones-2026-que-cambios-se-aplicaran-y-como-impactaran-tu-pension.shtml
+- Ley 21.735, Reforma Previsional — https://www.bcn.cl/leychile/navegar?idNorma=1212060
+
+### Wildfire Emergency (January 2026)
+
+- Naciones Unidas Chile, Incendios forestales 2026 Reporte 1 — https://chile.un.org/es/308630-incendios-forestales-2026-reporte-de-situaci%C3%B3n-n%C2%B01
+- Naciones Unidas Chile, Incendios forestales 2026 Reporte 2 — https://chile.un.org/es/308852-incendios-forestales-2026-reporte-de-situaci%C3%B3n-n%C2%B02
+- Wikipedia, Incendios forestales en Nuble y Biobio de 2026 — https://es.wikipedia.org/wiki/Incendios_forestales_en_%C3%91uble_y_Biob%C3%ADo_de_2026
+- BioBioChile, Dudas megaincendio Bio Bio (Feb 8, 2026) — https://www.biobiochile.cl/especial/bbcl-investiga/noticias/articulos/2026/02/08/las-dudas-detras-del-megaincendio-en-el-bio-bio-un-chivo-expiatorio-y-tres-informes-preliminares.shtml
+
+### International Relations
+
+- CNN Espanol, Chile EEUU China Boric Trump cable (Mar 3, 2026) — https://cnnespanol.cnn.com/2026/03/03/latinoamerica/chile-eeuu-china-boric-trump-cable-submarino-orix
+- France 24, Cable submarino primer reto Kast (Mar 11, 2026) — https://www.france24.com/es/minuto-a-minuto/20260311-el-futuro-de-un-cable-submarino-en-chile-que-disgusta-a-eeuu-primer-reto-de-kast
+- El Nacional, Cable chino rompio transicion (Mar 2026) — https://www.elnacional.com/2026/03/el-cable-chino-de-fibra-optica-que-rompio-la-transicion-de-gobierno-entre-boric-y-kast-en-chile-y-por-el-que-ee-uu-sanciono-a-funcionarios-del-pais/
+- BioBioChile, Invitados internacionales cambio de mando (Mar 6, 2026) — https://www.biobiochile.cl/noticias/nacional/chile/2026/03/06/el-listado-actualizado-de-presidentes-y-autoridades-internacionales-que-asistiran-al-cambio-de-mando.shtml
+- CELAG, Cambio de mando cierre y perspectivas (Mar 2026) — https://www.celag.org/cambio-de-mando-en-chile-cierre-y-perspectivas/
+
+### News Outlets — International Coverage
+
+- Al Jazeera, Far-right candidate Kast wins (Dec 14, 2025) — https://www.aljazeera.com/news/2025/12/14/far-right-candidate-jose-antonio-kast-wins-chiles-presidential-election
+- NPR, Chile shifts sharply right (Dec 14, 2025) — https://www.npr.org/2025/12/14/nx-s1-5644074/chile-kast-right
+- PBS, Ultra-conservative wins Chile election (Dec 14, 2025) — https://www.pbs.gov/newshour/world/ultra-conservative-wins-chile-election-will-be-most-right-wing-president-since-dictatorship
+- NBC News, Landslide win for Kast (Dec 14, 2025) — https://www.nbcnews.com/world/chile/landslide-win-kast-gives-chile-right-wing-president-decades-rcna249263
+- The Conversation, Chile elects most right-wing leader since Pinochet (Dec 2025) — https://theconversation.com/chile-elects-most-right-wing-leader-since-pinochet-in-line-with-regional-drift-domestic-tendency-to-punish-incumbents-272042
