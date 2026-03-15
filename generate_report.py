@@ -20,6 +20,10 @@ DOCUMENTS = [
     "08-civil-society.md",
     "09-erosion-scenarios.md",
     "10-democratic-clock.md",
+    "11-democracy-indices-2025-2026.md",
+    "12-situation-report-2026-03.md",
+    "13-security-migration-update-2025-2026.md",
+    "CHANGELOG.md",
     "bibliography.md",
 ]
 
@@ -221,11 +225,11 @@ def build_cover_html():
     <div class="cover">
         <h1>Congreso Monitor</h1>
         <p class="subtitle">Informe de Investigación:<br>
-        Estructura Institucional, Marco Legal, Contexto Actual<br>
-        y Escenarios de Erosión Democrática en Chile</p>
+        Estructura Institucional, Marco Legal, Contexto Actual,<br>
+        Escenarios de Erosión Democrática e Informe de Situación</p>
         <div class="meta">
             <p>Proyecto de monitoreo legislativo para la detección de deriva autoritaria</p>
-            <p>Febrero 2026</p>
+            <p>Marzo 2026 — Lectura del reloj: 4:00 a medianoche</p>
         </div>
     </div>
     """
@@ -319,6 +323,45 @@ def build_toc_html():
             <li>6. Diferencias con Índices Existentes</li>
             <li>7. Protocolo de Actualización</li>
             <li>8. Comunicación Pública</li>
+
+            <li class="phase">Fase 11: Índices de Democracia 2025-2026</li>
+            <li>1. V-Dem Democracy Report 2025</li>
+            <li>2. Freedom House — Freedom in the World 2025</li>
+            <li>3. EIU Democracy Index 2024</li>
+            <li>4. Transparency International — CPI 2025</li>
+            <li>5. World Justice Project — Rule of Law Index 2025</li>
+            <li>6. RSF — World Press Freedom Index 2025</li>
+            <li>7. Latinobarómetro 2024</li>
+            <li>8. LAPOP / Americas Barometer</li>
+            <li>9. International IDEA — Global State of Democracy 2025</li>
+            <li>10. Análisis Académicos 2025-2026</li>
+
+            <li class="phase">Fase 12: Informe de Situación Feb-Mar 2026</li>
+            <li>1. Elecciones Presidenciales y Parlamentarias 2025</li>
+            <li>2. Nuevo Presidente y Gobierno</li>
+            <li>3. Estados de Excepción</li>
+            <li>4. Seguridad y Política Migratoria</li>
+            <li>5. Cambios Constitucionales e Institucionales</li>
+            <li>6. Libertades Civiles y Derechos Humanos</li>
+            <li>7. Opinión Pública</li>
+            <li>8. Dinámica Congresional</li>
+            <li>9. Poder Judicial</li>
+            <li>10. Situación Económica</li>
+            <li>11. Relaciones Internacionales</li>
+
+            <li class="phase">Fase 13: Actualización Seguridad y Migración 2025-2026</li>
+            <li>1. Estados de Excepción Constitucional</li>
+            <li>2. Ley de Infraestructura Crítica</li>
+            <li>3. Política Migratoria y Deportaciones</li>
+            <li>4. Estadísticas de Criminalidad</li>
+            <li>5. Militarización de la Seguridad Pública</li>
+            <li>6. Preocupaciones de Derechos Humanos</li>
+            <li>7. Nueva Legislación de Seguridad</li>
+            <li>8. Ministerio de Seguridad Pública</li>
+            <li>9. Transición al Gobierno Kast</li>
+
+            <li class="phase">Registro de Cambios del Reloj</li>
+            <li>Historial de lecturas, cambios dimensionales y justificaciones</li>
 
             <li class="phase">Bibliografía</li>
             <li>Fuentes oficiales, portales de datos, ciencia política, índices democráticos</li>
