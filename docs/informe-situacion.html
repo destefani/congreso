@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informe de Situacion — El Reloj Democratico de Chile</title>
+  <meta name="description" content="Informe de situacion politica de Chile, febrero-marzo 2026. Elecciones, inauguracion de Kast, primeros decretos, evaluacion de erosion democratica.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .report-header { text-align: center; padding: 2rem 0 1rem; border-bottom: 3px solid var(--primary); margin-bottom: 2rem; }
+    .report-header .period { color: var(--text-light); font-size: 0.95rem; }
+    .report-header .clock-ref { display: inline-block; background: var(--orange); color: #fff; padding: 0.3rem 1rem; border-radius: 4px; font-weight: 700; font-size: 1.1rem; margin-top: 0.75rem; }
+    .report-section { margin-bottom: 2.5rem; }
+    .report-section h2 { display: flex; align-items: center; gap: 0.5rem; }
+    .report-section h2 .section-num { background: var(--primary); color: #fff; width: 32px; height: 32px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; }
+    .erosion-box { background: #fef5f4; border-left: 4px solid var(--red); padding: 1rem 1.25rem; margin: 1rem 0 1.5rem; border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+    .erosion-box strong { color: var(--red); }
+    .risk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+    .risk-card { padding: 1.25rem; border-radius: 6px; }
+    .risk-card h3 { margin-top: 0; font-size: 1rem; margin-bottom: 0.75rem; }
+    .risk-card.high { background: #fef5f4; border: 1px solid #f5c6cb; }
+    .risk-card.high h3 { color: var(--red); }
+    .risk-card.mitigate { background: #eaf7ee; border: 1px solid #c3e6cb; }
+    .risk-card.mitigate h3 { color: var(--green); }
+    .risk-card ul { margin: 0; padding-left: 1.25rem; font-size: 0.9rem; }
+    .risk-card li { margin-bottom: 0.4rem; }
+    .monitor-list { columns: 2; column-gap: 2rem; margin: 1rem 0; }
+    .monitor-list li { margin-bottom: 0.5rem; font-size: 0.9rem; }
+    .quote-block { border-left: 4px solid var(--secondary); background: #eef2f7; padding: 1rem 1.25rem; margin: 1rem 0; font-style: italic; font-size: 0.95rem; }
+    .quote-block cite { display: block; margin-top: 0.5rem; font-style: normal; font-size: 0.85rem; color: var(--text-light); }
+    .source-list { font-size: 0.8rem; color: var(--text-light); margin-top: 0.5rem; }
+    .source-list a { font-size: 0.8rem; }
+    .download-bar { background: var(--primary); color: #fff; padding: 1.5rem; border-radius: 8px; text-align: center; margin: 2rem 0; }
+    .download-bar a { color: #fff; background: rgba(255,255,255,0.15); padding: 0.5rem 1.5rem; border-radius: 5px; font-weight: 600; margin: 0 0.5rem; display: inline-block; }
+    .download-bar a:hover { background: rgba(255,255,255,0.25); text-decoration: none; }
+    @media (max-width: 768px) { .risk-grid { grid-template-columns: 1fr; } .monitor-list { columns: 1; } }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="index.html">El Reloj Democratico de Chile</a></h1>
+      <nav class="site-nav">
+        <a href="index.html">Reloj</a>
+        <a href="investigacion.html">Investigacion</a>
+        <a href="metodologia.html">Metodologia</a>
+        <a href="informe-situacion.html" class="active">Informe</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="container">
+
+      <div class="report-header">
+        <h1>Informe de Situacion: Chile</h1>
+        <p class="subtitle">Monitoreo de Erosion Democratica</p>
+        <p class="period">Periodo cubierto: 1 de febrero — 15 de marzo de 2026</p>
+        <div class="clock-ref">Reloj: 4:30 &rarr; 4:00 a medianoche</div>
+      </div>
+
+      <!-- Section 1: Elections -->
+      <div class="report-section">
+        <h2><span class="section-num">1</span> Elecciones presidenciales y parlamentarias 2025</h2>
+
+        <h3>Eleccion presidencial</h3>
+
+        <p><strong>Primera vuelta (16 de noviembre de 2025):</strong></p>
+        <table class="method-table">
+          <thead><tr><th>Candidato</th><th>Partido / Coalicion</th><th>% Votos</th></tr></thead>
+          <tbody>
+            <tr><td>Jeannette Jara</td><td>PC / Unidad por Chile</td><td>26,84%</td></tr>
+            <tr><td>Jose Antonio Kast</td><td>Republicano / Cambio por Chile</td><td>23,95%</td></tr>
+            <tr><td>Franco Parisi</td><td>Partido de la Gente</td><td>19,66%</td></tr>
+            <tr><td>Johannes Kaiser</td><td>Partido Nacional Libertario</td><td>13,93%</td></tr>
+            <tr><td>Evelyn Matthei</td><td>UDI / Chile Vamos</td><td>12,50%</td></tr>
+          </tbody>
+        </table>
+        <p>El voto de derecha estuvo fragmentado en cuatro candidatos (Kast, Parisi, Kaiser, Matthei), que en conjunto obtuvieron el 70,03% de los votos, senalando un giro a la derecha sin precedentes.</p>
+
+        <p><strong>Segunda vuelta (14 de diciembre de 2025):</strong></p>
+        <table class="method-table">
+          <thead><tr><th>Candidato</th><th>Votos</th><th>%</th></tr></thead>
+          <tbody>
+            <tr><td>Jose Antonio Kast</td><td>7.254.850</td><td>58,16%</td></tr>
+            <tr><td>Jeannette Jara</td><td>~5.200.000</td><td>~41,84%</td></tr>
+          </tbody>
+        </table>
+        <p>Kast gano en las 16 regiones de Chile — la segunda vuelta mas desequilibrada desde el retorno a la democracia. Se convirtio en el candidato presidencial mas votado en la historia de Chile.</p>
+
+        <h3>Elecciones parlamentarias (16 de noviembre de 2025)</h3>
+
+        <p><strong>Camara de Diputados (155 escanos):</strong></p>
+        <table class="method-table">
+          <thead><tr><th>Coalicion</th><th>Escanos</th></tr></thead>
+          <tbody>
+            <tr><td>Unidad por Chile (PC, FA, PS, PPD, PR, DC, Liberal)</td><td>61</td></tr>
+            <tr><td>Cambio por Chile (Republicanos, Nacional Libertario, Social Cristiano)</td><td>42</td></tr>
+            <tr><td>Chile Grande y Unido (RN, UDI, Evopoli, Democratas)</td><td>34</td></tr>
+            <tr><td>Partido de la Gente (PDG)</td><td>14</td></tr>
+            <tr><td>Verdes, Regionalistas y Humanistas</td><td>3</td></tr>
+            <tr><td>Independientes</td><td>1</td></tr>
+          </tbody>
+        </table>
+
+        <p><strong>Senado (composicion total 2026-2030):</strong></p>
+        <table class="method-table">
+          <thead><tr><th>Bloque</th><th>Escanos</th></tr></thead>
+          <tbody>
+            <tr><td>Unidad por Chile</td><td>20</td></tr>
+            <tr><td>Chile Grande y Unido</td><td>18</td></tr>
+            <tr><td>Cambio por Chile (Republicanos et al.)</td><td>7</td></tr>
+            <tr><td>Verdes, Regionalistas y Humanistas</td><td>3</td></tr>
+            <tr><td>Independientes (centro-izquierda)</td><td>2</td></tr>
+          </tbody>
+        </table>
+        <p>El Senado quedo efectivamente empatado <strong>25-25</strong> entre el bloque de derecha y el de centro-izquierda/izquierda, creando un escenario de negociacion obligatoria. El PDG (14 diputados, zero escanos previos) emergio como fuerza bisagra sorpresa.</p>
+      </div>
+
+      <!-- Section 2: New Government -->
+      <div class="report-section">
+        <h2><span class="section-num">2</span> Nuevo presidente y gobierno</h2>
+
+        <h3>Inauguracion (11 de marzo de 2026)</h3>
+        <p>Jose Antonio Kast (Partido Republicano) asumio como Presidente de Chile para el periodo 2026-2030 en el Salon de Honor del Congreso Nacional en Valparaiso.</p>
+
+        <h3>Discurso inaugural — "Gobierno de emergencia"</h3>
+        <div class="quote-block">
+          "Recibimos un pais en condiciones peores de las que podiamos imaginar. Un pais con finanzas publicas debilitadas. Un pais donde el crimen organizado y el narcotrafico han avanzado. Un pais donde las familias se sienten abandonadas por el Estado."
+          <cite>— Jose Antonio Kast, discurso desde La Moneda, 11 de marzo de 2026</cite>
+        </div>
+        <div class="quote-block">
+          "Un gobierno de emergencia no es un eslogan; es orden donde hay caos; es alivio donde hay dolor; es mano firme donde hay impunidad."
+          <cite>— Jose Antonio Kast</cite>
+        </div>
+        <p>El Mostrador describio el discurso como de "tono portaliano", en referencia a Diego Portales, el estadista conservador autoritario del siglo XIX.</p>
+
+        <h3>Seis primeros decretos (firmados el 11 de marzo de 2026)</h3>
+        <ol>
+          <li><strong>Cierre fronterizo nacional</strong> — Delimitacion de sectores vulnerables de la frontera con Bolivia, mayor despliegue militar en la macrozona norte</li>
+          <li><strong>Comisionado de macrozona norte</strong> — Ex-vicealmirante Alberto Soto nombrado comisionado para Arica, Tarapaca y Antofagasta</li>
+          <li><strong>Auditoria total del Estado</strong> — Revision integral del gasto publico del periodo Boric (2022-2026)</li>
+          <li><strong>Desbloqueo de permisos ambientales</strong> — Resolucion de 51 recursos de reclamacion pendientes (US$16.000 millones en inversion)</li>
+          <li><strong>Reconstruccion regional</strong> — MINVU liderara la reconstruccion en Valparaiso, Nuble y Biobio (post-incendios)</li>
+          <li><strong>Plan Escudo Fronterizo</strong> — Ejercito designado para liderar la proteccion fronteriza norte</li>
+        </ol>
+
+        <h3>Gabinete (24 ministros)</h3>
+        <p>13 hombres y 11 mujeres. Caracteristica notable: <strong>16 de 24 ministros son independientes</strong> — el gabinete con mas independientes desde el retorno a la democracia.</p>
+        <table class="method-table">
+          <thead><tr><th>Cartera</th><th>Ministro/a</th></tr></thead>
+          <tbody>
+            <tr><td>Interior</td><td>Claudio Alvarado</td></tr>
+            <tr><td>Seguridad Publica</td><td>Trinidad Steinert</td></tr>
+            <tr><td>Relaciones Exteriores</td><td>Francisco Perez Mackenna</td></tr>
+            <tr><td>Hacienda</td><td>Jorge Quiroz</td></tr>
+            <tr><td>Defensa</td><td>Fernando Barros Tocornal</td></tr>
+            <tr><td>Economia y Mineria</td><td>Daniel Mas</td></tr>
+            <tr><td>Educacion</td><td>Maria Paz Arzola</td></tr>
+            <tr><td>Justicia y DDHH</td><td>Fernando Rabat</td></tr>
+            <tr><td>Trabajo</td><td>Tomas Rau</td></tr>
+            <tr><td>Vivienda</td><td>Ivan Poduje</td></tr>
+            <tr><td>Salud</td><td>May Paulina Chomali</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Section 3: States of Exception -->
+      <div class="report-section">
+        <h2><span class="section-num">3</span> Estados de excepcion</h2>
+
+        <h3>Macrozona sur (Araucania / Biobio)</h3>
+        <p>El estado de excepcion constitucional de emergencia fue extendido por 30 dias adicionales a partir del 26 de febrero de 2026. La violencia descendio un 28% interanual en 2025 y un 79% respecto a 2021.</p>
+        <p>El delegado de La Araucania, Francisco Ljubetic, declaro que el gobierno de Kast "prepara decretos para la region" y que "no hay elementos para poner fin a esta medida".</p>
+
+        <h3>Frontera norte (macrozona norte)</h3>
+        <p>El Senado aprobo por unanimidad la extension por 90 dias del marco de infraestructura critica en Arica y Parinacota, Tarapaca y Antofagasta.</p>
+
+        <div class="erosion-box">
+          <strong>Evaluacion de erosion:</strong> Los estados de excepcion llevan mas de 1.000 dias de renovacion continua bajo Boric. Kast mantendra y expandira su alcance. La normalizacion del despliegue militar para tareas policiales civiles continua profundizandose.
+        </div>
+      </div>
+
+      <!-- Section 4: Security and Migration -->
+      <div class="report-section">
+        <h2><span class="section-num">4</span> Seguridad y politica migratoria</h2>
+
+        <h3>Plan Escudo Fronterizo</h3>
+        <p>La accion mas dramatica del gobierno Kast en sus primeros dias. Firmado por decreto el 11 de marzo de 2026:</p>
+        <ul>
+          <li><strong>Barreras fisicas:</strong> Construccion de zanja de 3 metros de profundidad y muros de 5 metros en la frontera norte, con cercos, torres de vigilancia y barreras perimetrales</li>
+          <li><strong>Despliegue militar:</strong> Al menos 3.000 efectivos militares estacionados permanentemente para vigilancia, control territorial y eliminacion de cruces no autorizados (~100% de aumento)</li>
+          <li><strong>Tecnologia:</strong> Drones, camaras termicas, sensores de movimiento y sistemas de identificacion biometrica</li>
+          <li><strong>Centros de detencion:</strong> Creacion de centros de internacion para migrantes irregulares en Colchane (frontera Bolivia) y Chacalluta (frontera Peru)</li>
+          <li><strong>Plazo:</strong> Ventana de implementacion de 90 dias</li>
+        </ul>
+        <p>Los medios compararon ampliamente el plan con la estrategia de muro fronterizo de Trump (CNN, France 24: "Kast, como Trump").</p>
+
+        <h3>Plan de deportacion masiva</h3>
+        <p>Kast asumio con la promesa de deportar aproximadamente <strong>340.000 migrantes</strong> en situacion irregular (~75% venezolanos). Medidas especificas:</p>
+        <ul>
+          <li>Convertir la migracion irregular en delito</li>
+          <li>Limitar beneficios publicos (salud, educacion, vivienda) para migrantes indocumentados</li>
+          <li>Plan de expulsion a gran escala priorizando quienes tengan antecedentes penales</li>
+        </ul>
+      </div>
+
+      <!-- Section 5: Institutional Changes -->
+      <div class="report-section">
+        <h2><span class="section-num">5</span> Cambios constitucionales e institucionales</h2>
+
+        <h3>Crisis en la Corte Suprema — cuatro vacantes</h3>
+        <p>La Corte Suprema tiene <strong>cuatro vacantes</strong> desde enero de 2026:</p>
+        <ul>
+          <li>Jubilacion de la ministra Maria Teresa Letelier Ramirez</li>
+          <li>Destitucion de los ministros Angela Vivanco, Sergio Munoz y Diego Simpertigue</li>
+        </ul>
+        <p>El presidente Kast designara estos cargos (de quinas propuestas por la Corte, con aprobacion del Senado), otorgandole influencia significativa sobre el maximo tribunal.</p>
+
+        <h3>Auditoria total del Estado</h3>
+        <p>El decreto de Kast ordena una auditoria fiscal integral de todas las agencias gubernamentales del periodo 2022-2026. Aunque presentada como medida de probidad, criticos senalan que podria funcionar como herramienta politica contra el gobierno anterior.</p>
+
+        <div class="erosion-box">
+          <strong>Evaluacion de erosion:</strong> La combinacion de cuatro vacantes en la Corte Suprema, el control de la presidencia del Senado y el mecanismo de "auditoria total" otorga al gobierno Kast un apalancamiento significativo sobre la arquitectura institucional.
+        </div>
+      </div>
+
+      <!-- Section 6: Human Rights -->
+      <div class="report-section">
+        <h2><span class="section-num">6</span> Libertades civiles y derechos humanos</h2>
+
+        <h3>Indultos a uniformados condenados por el estallido social</h3>
+        <div class="erosion-box">
+          <strong>Este es el desarrollo mas alarmante para el monitoreo de erosion democratica.</strong>
+        </div>
+        <p>El 13 de marzo de 2026 — solo dos dias despues de asumir — el presidente Kast anuncio que utilizara la facultad de indulto presidencial para beneficiar a policias y militares condenados por violaciones de derechos humanos durante el estallido social de 2019.</p>
+        <ul>
+          <li>La Fiscalia registra <strong>102 miembros</strong> de las FFAA y de Orden condenados por casos vinculados a octubre de 2019</li>
+          <li>La represion de 2019 dejo ~40 muertos, miles de heridos, cientos con lesiones oculares por perdigones, miles de detenidos y reportes de tortura</li>
+          <li>Kast justifico los indultos afirmando que estos funcionarios "cumplieron con su deber, mandatado por el Estado"</li>
+        </ul>
+
+        <div class="quote-block">
+          "Me parece provocador que a pocos dias de asumir, Kast este anunciando indultos para uniformados condenados por el estallido social."
+          <cite>— Diputada Andrea Parra (PPD)</cite>
+        </div>
+
+        <h3>Preocupaciones de la sociedad civil</h3>
+        <p>Movimientos feministas, organizaciones de DDHH, organizaciones territoriales y sindicatos han emitido advertencias sobre:</p>
+        <ul>
+          <li>Posibles retrocesos en la ley de aborto en tres causales</li>
+          <li>Continuidad de programas de derechos reproductivos y equidad de genero</li>
+          <li>Politicas de memoria historica, verdad y justicia</li>
+          <li>Nombramientos de personas que defendieron a Pinochet o mantienen posiciones revisionistas</li>
+          <li>Criminalizacion de la protesta social</li>
+        </ul>
+      </div>
+
+      <!-- Section 7: Public Opinion -->
+      <div class="report-section">
+        <h2><span class="section-num">7</span> Opinion publica</h2>
+
+        <table class="method-table">
+          <thead><tr><th>Indicador</th><th>Dato</th><th>Fuente</th></tr></thead>
+          <tbody>
+            <tr><td>Aprobacion final Boric</td><td>37%</td><td>CADEM, 8 mar 2026</td></tr>
+            <tr><td>Expectativas positivas para Kast</td><td>56-57%</td><td>CADEM, mar 2026</td></tr>
+            <tr><td>Aprobacion inicial Kast</td><td>46%</td><td>Criteria, mar 2026</td></tr>
+            <tr><td>Imagen positiva Kast</td><td>56%</td><td>CADEM, 13 mar 2026</td></tr>
+            <tr><td>Prefiere la democracia</td><td>49%</td><td>CEP</td></tr>
+            <tr><td>Prefiere gobierno autoritario</td><td>19%</td><td>CEP</td></tr>
+            <tr><td>Cree que la democracia funciona bien</td><td>12%</td><td>CEP</td></tr>
+          </tbody>
+        </table>
+
+        <div class="erosion-box">
+          <strong>Evaluacion de erosion:</strong> Solo el 49% prefiere la democracia y solo el 12% cree que funciona bien. Esto crea un terreno fertil para la gobernanza autoritaria. La alta confianza en policias y militares, relativa a las instituciones democraticas, es un patron preocupante.
+        </div>
+      </div>
+
+      <!-- Section 8: Congress -->
+      <div class="report-section">
+        <h2><span class="section-num">8</span> Dinamica congresional</h2>
+
+        <p><strong>Senado:</strong> Paulina Nunez elegida presidenta (39 votos). <strong>Camara:</strong> Jorge Alessandri (UDI) elegido presidente con 78 votos — descrita como la "primera victoria legislativa" del gobierno.</p>
+        <p>La centro-derecha controla las mesas de ambas camaras, otorgando al gobierno un posicionamiento procedimental favorable.</p>
+
+        <h3>Agenda legislativa — "Plan Desafio 90"</h3>
+        <ol>
+          <li><strong>Rebaja tributaria:</strong> Impuesto corporativo de 27% a 23%; PyMEs fijado en 12,5%</li>
+          <li><strong>Eliminacion contribuciones:</strong> Gradual, partiendo por mayores de 65 en primera vivienda</li>
+          <li><strong>Eliminacion impuesto ganancias de capital:</strong> En acciones de baja liquidez; reintegracion tributaria</li>
+          <li><strong>Estatuto de inversion:</strong> Certeza juridica y tributaria para inversores</li>
+        </ol>
+
+        <h3>Proyecto de Reconstruccion Nacional (14 de marzo de 2026)</h3>
+        <p>Paquete de 40 medidas en cinco ejes, incluyendo 400 mil millones de pesos para reconstruccion post-incendios, eliminacion temporal del IVA en vivienda, <strong>limitacion de la gratuidad universitaria</strong> a menores de 30 anos, y refuerzo del cobro del CAE. La oposicion cuestiona la inclusion de rebajas tributarias corporativas en un proyecto de "reconstruccion".</p>
+      </div>
+
+      <!-- Section 9: Judiciary -->
+      <div class="report-section">
+        <h2><span class="section-num">9</span> Poder Judicial</h2>
+
+        <h3>Caso Hermosilla (Caso Audios)</h3>
+        <p>La Fiscalia Metropolitana Oriente pide hasta <strong>14 anos de carcel</strong> para Luis Hermosilla por cohecho, delitos tributarios y lavado de activos. 18 anos para Leonarda Villalobos. El caso prepara juicio oral.</p>
+
+        <h3>Caso Muneca Bielorrusa — Angela Vivanco</h3>
+        <p><strong>Historico:</strong> ex-ministra de la Corte Suprema Angela Vivanco en prision preventiva desde el 30 de enero de 2026 — medida sin precedentes para un miembro del maximo tribunal. Formalizada por cohecho y lavado de activos (~11 mil millones de pesos en sobornos vinculados al consorcio bielorruso Belaz Movitec).</p>
+
+        <h3>Crisis judicial mas amplia</h3>
+        <p>La presidenta de la Corte Suprema, Gloria Ana Chevesich, reconocio que "hemos atravesado una crisis". Cuatro vacantes, contratos sin licitacion, y jueces investigados tomando decisiones sobre otros jueces investigados.</p>
+
+        <div class="erosion-box">
+          <strong>Evaluacion de erosion:</strong> La crisis de corrupcion judicial es la amenaza mas significativa al estado de derecho. La persecucion simultanea de una ex-ministra de la Corte Suprema, un ex-fiscal regional y el abogado mas poderoso de Chile, combinada con cuatro vacantes que Kast llenara, representa una coyuntura critica para la independencia judicial.
+        </div>
+      </div>
+
+      <!-- Section 10: Economy -->
+      <div class="report-section">
+        <h2><span class="section-num">10</span> Situacion economica</h2>
+
+        <table class="method-table">
+          <thead><tr><th>Indicador</th><th>Dato</th></tr></thead>
+          <tbody>
+            <tr><td>PIB 2025 (real)</td><td>~2,4%</td></tr>
+            <tr><td>PIB 2026 (proyeccion)</td><td>2,0% - 3,0%</td></tr>
+            <tr><td>Inflacion (feb 2026)</td><td>2,4% (bajo la meta)</td></tr>
+            <tr><td>Tasa de politica monetaria</td><td>4,5% (minimo desde ene 2022)</td></tr>
+            <tr><td>Desempleo</td><td>8,3%</td></tr>
+            <tr><td>Empleo informal</td><td>26,8%</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Reforma de pensiones (Ley 21.735)</h3>
+        <p>Implementacion gradual: pagos BAC desde enero 2026, sistema unico de recaudacion desde junio, PGU expandiendose desde 82+ a 75+ en 2026 y a todos los 65+ para 2027.</p>
+
+        <h3>Incendios forestales (enero 2026)</h3>
+        <p>34.000+ hectareas quemadas en Biobio y Nuble. 21 muertos, 330+ heridos, ~22.000 afectados, 4.100+ viviendas destruidas. 400 mil millones de pesos asignados para reconstruccion.</p>
+      </div>
+
+      <!-- Section 11: International -->
+      <div class="report-section">
+        <h2><span class="section-num">11</span> Relaciones internacionales</h2>
+
+        <h3>Controversia del cable submarino Chile-China</h3>
+        <p>El gobierno Boric aprobo (27 ene 2026) y luego anulo (48 horas despues) una concesion para un cable de fibra optica de ~20.000 km entre Chile y China. La administracion Trump <strong>sanciono a tres funcionarios de Boric</strong> revocando sus visas. La controversia <strong>rompio la transicion presidencial</strong>: Kast termino la cooperacion formal de traspaso.</p>
+
+        <h3>Diplomacia de inauguracion</h3>
+        <p>14 jefes de Estado y 19 autoridades internacionales asistieron. Asistentes notables: Milei (Argentina), Noboa (Ecuador), Rey Felipe VI (Espana), Maria Corina Machado (Venezuela), Flavio Bolsonaro (Brasil). Ausencia notable: Lula da Silva declino despues de confirmar inicialmente.</p>
+      </div>
+
+      <!-- Summary -->
+      <div class="report-section">
+        <h2><span class="section-num">&#9888;</span> Evaluacion de riesgo de erosion democratica</h2>
+
+        <div class="risk-grid">
+          <div class="risk-card high">
+            <h3>Indicadores de alto riesgo</h3>
+            <ul>
+              <li>Indultos para perpetradores de violencia estatal (anunciados 13 mar)</li>
+              <li>Militarizacion masiva de fronteras: 3.000+ tropas, zanjas, muros, centros de detencion</li>
+              <li>Marco de "gobierno de emergencia"</li>
+              <li>Auditoria total al gobierno anterior</li>
+              <li>Cuatro vacantes en Corte Suprema</li>
+              <li>Retorica nacionalista/autoritaria</li>
+              <li>Solo 49% prefiere la democracia</li>
+            </ul>
+          </div>
+          <div class="risk-card mitigate">
+            <h3>Factores mitigantes</h3>
+            <ul>
+              <li>Sin supermayoria congresional (Senado 25-25)</li>
+              <li>Procesos judiciales activos (Hermosilla, Vivanco)</li>
+              <li>Sociedad civil activa monitoreando</li>
+              <li>Prensa libre operando sin interferencia</li>
+              <li>Marco institucional (Contraloria, TC, INDH) intacto</li>
+              <li>Reforma de pensiones implementandose</li>
+              <li>Banco Central independiente</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Indicadores a monitorear en los proximos 90 dias</h3>
+        <ul class="monitor-list">
+          <li>Ejecucion de indultos: cuantos y cuales?</li>
+          <li>Nominaciones a la Corte Suprema</li>
+          <li>Estados de excepcion: renovacion y alcance</li>
+          <li>Deportaciones masivas: escala y legalidad</li>
+          <li>Dinamica congresional: PDG se alinea con el gobierno?</li>
+          <li>Tratamiento de la protesta social</li>
+          <li>Independencia y funcionamiento del INDH</li>
+          <li>Incidentes de libertad de prensa</li>
+          <li>Proyecto de Reconstruccion Nacional: voto congresional</li>
+          <li>Permisos ambientales: debilitamiento de protecciones?</li>
+        </ul>
+      </div>
+
+      <!-- Download bar -->
+      <div class="download-bar">
+        <p style="margin-bottom:0.75rem">Descargar este informe</p>
+        <a href="Informe_Situacion_Chile_Marzo_2026.pdf">PDF en espanol</a>
+        <a href="research/12-situation-report-2026-03.md">Texto completo (ingles)</a>
+      </div>
+
+      <p class="source-list" style="margin-top:2rem">
+        <em>Este informe fue compilado a partir de multiples fuentes chilenas e internacionales incluyendo La Tercera, CIPER, El Mostrador, The Clinic, Ex-Ante, BioBioChile, Cooperativa, Emol, Diario Financiero, T13, CNN, NPR, PBS, Al Jazeera, France 24, Infobae y otras. Todas las URLs y fechas de fuentes estan documentadas en el <a href="research/12-situation-report-2026-03.md">informe completo</a>.</em>
+      </p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Congreso Monitor &mdash; Monitoreo de erosion democratica en Chile</p>
+    </div>
+  </footer>
+
+</body>
+</html>
