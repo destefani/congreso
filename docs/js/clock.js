@@ -4,19 +4,21 @@
    ============================================ */
 
 const CLOCK_DATA = {
-  reading: "4:30",
-  hoursToMidnight: 4.5,
+  reading: "4:00",
+  hoursToMidnight: 4.0,
   zone: "Erosion Temprana",
   zoneColor: "#e67e22",
-  date: "Febrero 2026",
+  date: "Marzo 2026",
+  previousReading: "4:30",
+  previousDate: "Febrero 2026",
   dimensions: [
     {
       name: "Estado de Excepcion",
-      reading: "4:30",
-      hours: 4.5,
+      reading: "3:30",
+      hours: 3.5,
       zone: "orange",
       zoneName: "Erosion Temprana",
-      description: "Chile lleva mas de 2.000 de los ultimos 2.300 dias con alguna parte de su territorio bajo estado de excepcion constitucional. La Ley de Infraestructura Critica (2023) institucionalizo el despliegue militar sin estado de excepcion formal. Lo impensable en 2015 es normal en 2025. Esta es la dimension mas deteriorada."
+      description: "Chile supero 1.000 dias continuos de estado de excepcion en la macrozona sur (feb 2025). Solo 51 dias sin estado de excepcion desde octubre 2021, con 61 prorrogas. El Plan Escudo Fronterizo (mar 2026) despliega 3.000+ militares permanentes en la frontera norte, con muros de 5m, zanjas de 3m, centros de detencion y vigilancia biometrica. La militarizacion de la seguridad se profundiza sin precedentes en el Chile post-Pinochet."
     },
     {
       name: "Legitimidad Democratica",
@@ -24,37 +26,37 @@ const CLOCK_DATA = {
       hours: 5.0,
       zone: "orange",
       zoneName: "Erosion Temprana",
-      description: "Menos del 45% de los chilenos declara preferir la democracia a cualquier otro sistema. Mas del 55% acepta restringir libertades por seguridad. El 28% considera que un gobierno autoritario puede ser preferible. Las condiciones socioeconomicas — pensiones miserables, alta desigualdad — alimentan la desafeccion."
+      description: "Solo 49% de los chilenos prefiere la democracia (CEP). Solo 12% cree que funciona bien. 19% prefiere un gobierno autoritario. Chile tiene el optimismo economico mas bajo de America Latina (30%, Latinobarometro) y el 77% teme al crimen. El EIU califica la cultura politica en 5,63/10 — el factor que impide la clasificacion como democracia plena."
     },
     {
       name: "Equilibrio de Poderes",
-      reading: "6:30",
-      hours: 6.5,
-      zone: "yellow",
-      zoneName: "Tensiones Democraticas",
-      description: "El Congreso funciona pero su rol deliberativo esta degradado. La proporcion de legislacion de origen ejecutivo es alta. Las urgencias se usan regularmente como herramienta tactica para presionar o evitar deliberacion. Se acerca al borde naranja."
+      reading: "5:30",
+      hours: 5.5,
+      zone: "orange",
+      zoneName: "Erosion Temprana",
+      description: "Kast declaro que 'el Congreso no es tan relevante como la gente podria imaginar' y marco su administracion como 'gobierno de emergencia'. Seis decretos firmados el dia de asuncion. El oficialismo controla las presidencias de ambas camaras. Auditoria total al gobierno anterior como posible herramienta de persecucion politica. Mitigante: el Senado esta empatado 25-25 y la Camara requiere alianzas cruzadas."
     },
     {
       name: "Independencia Institucional",
+      reading: "5:30",
+      hours: 5.5,
+      zone: "orange",
+      zoneName: "Erosion Temprana",
+      description: "Cuatro vacantes en la Corte Suprema que Kast llenara — poder transformativo sobre el Poder Judicial. Ex-ministra Vivanco en prision preventiva por cohecho; caso Hermosilla con peticion de 14 anos. Anuncio de indultos presidenciales para 102 uniformados condenados por violaciones de DDHH en el estallido social. Ministros de Defensa y Justicia con historial de defensa de Pinochet. Mitigante: Contraloria y tribunales siguen operando con independencia."
+    },
+    {
+      name: "Resiliencia Civil",
       reading: "7:00",
       hours: 7.0,
       zone: "yellow",
       zoneName: "Tensiones Democraticas",
-      description: "Las instituciones de control funcionan. El Contralor ejerce la toma de razon, el TC tiene composicion equilibrada, el Poder Judicial opera con independencia formal. Pero hay presion: el INDH enfrenta ataques, presupuestos estancados, y el caso Hermosilla revelo fragilidad ante la corrupcion interna."
-    },
-    {
-      name: "Resiliencia Civil",
-      reading: "7:30",
-      hours: 7.5,
-      zone: "yellow",
-      zoneName: "Tensiones Democraticas",
-      description: "La sociedad civil chilena es activa pero fragil. El periodismo investigativo (CIPER) mantiene capacidad de denuncia. Las ONGs de vigilancia operan. Pero la concentracion mediatica es alta, el financiamiento precario, y la fatiga civica post-estallido y post-constituyente es real."
+      description: "Chile cayo 17 posiciones en libertad de prensa (RSF: 69°, era 52°). Indicador economico de prensa el peor (88°) por concentracion mediatica. CIPER, El Mostrador y The Clinic siguen operando. 115 organizaciones de DDHH protestaron nombramientos ministeriales. La sociedad civil esta activa pero la fatiga civica post-estallido y post-constituyente es real."
     }
   ],
   keyFacts: [
-    { number: "2.000+", label: "dias de estado de excepcion desde 2019" },
-    { number: "<45%", label: "de los chilenos prefiere la democracia" },
-    { number: ">55%", label: "acepta restringir libertades por seguridad" }
+    { number: "3.000+", label: "militares desplegados en frontera norte" },
+    { number: "49%", label: "de los chilenos prefiere la democracia" },
+    { number: "102", label: "uniformados que Kast planea indultar" }
   ]
 };
 
